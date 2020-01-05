@@ -41,4 +41,10 @@ dependencies {
     // Room Components
     implementation "androidx.room:room-runtime:$room_version"
     annotationProcessor "androidx.room:room-compiler:$room_version" // For Kotlin use kapt instead of annotationProcessor
+
+    // Recycler View
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    // CoordinatorLayout
+    implementation "androidx.coordinatorlayout:coordinatorlayout:1.1.0"
 }
